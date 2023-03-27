@@ -97,3 +97,32 @@ table,tr,td,th{
     border-spacing: 7px;
     border-collapse: collapse;
 }
+
+@media (max-width:600px){
+    #main{
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden;
+        position: absolute;
+        bottom: 0%;
+        top: 00%;
+        /* right: 0; */
+        padding-right: 0%;
+    }
+    .nav{
+        display: none;
+    }
+    html {
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden;
+        position: fixed;
+        top: 100%;
+        left: 0;
+      }
+      .container{
+        height: 60vw;
+      }
+}
