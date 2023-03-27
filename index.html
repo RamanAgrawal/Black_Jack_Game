@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jeke</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="nav"><h1>Black Jek game</h1></div>
+    <div id="main">
+        <!-- <h1>Black Jek game</h1> -->
+        <h1 id="result">lets Play</h1>
+        <div class="game">
+            <div class="container">
+                <div class="game-div" id="user_div">
+                    <h1>You:<spam id="userscore">0</spam>
+                    </h1>
+                </div>
+                <div class="game-div" id="dealer_div">
+                    <h1>Dealar:<spam id="botscore">0</spam>
+                    </h1>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="hitbtn" class="btn hit-btn">HIT</button>
+                <button id="standbtn" class="btn stand-btn">Stand</button>
+                <button id="dealbtn" class="btn deal-btn">Deal</button>
+            </div>
+        </div>
+        <table>
+         <tr>
+             <th>Win</th>
+             <th>Loss</th>
+             <th>Drow</th>
+         </tr>
+         <tr>
+             <td><span id="user-win">0</span></td>
+             <td><span id="user-loss">0</span></td>
+             <th><span id ='drow'>0</span></th>
+         </tr>
+         
+        </table>
+    </div>
+</body>
+
+</html>
